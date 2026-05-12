@@ -39,7 +39,7 @@ jobs:
           name: npm-package-artifact
           path: build
           if-no-files-found: error
-          retention-days: 1
+          retention-days: 7
 
   publish:
     needs: build-release-artifact
